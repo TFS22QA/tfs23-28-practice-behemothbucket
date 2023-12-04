@@ -33,6 +33,8 @@ dependencies {
 
     //db
     implementation("org.postgresql:postgresql:42.4.3")
+    // db2
+    implementation("org.hibernate:hibernate-core:6.0.0.Final")
 
     //tests
     testImplementation("org.springframework.boot:spring-boot-starter-test")
